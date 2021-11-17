@@ -56,7 +56,7 @@ def send_email():
         print(response.status_code)
         print(response.body)
         print(response.headers)
-        return "send success"
+        return "send successed"
     except Exception as e:
         print(e)
         return "error"
